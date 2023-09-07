@@ -12,6 +12,7 @@ variable "aws_secret_key" {
 
 variable "keyname" {
   type = string
+  default = ""
 }
 
 variable "vpc" {

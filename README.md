@@ -21,6 +21,10 @@ POST /api/update-value-key
 
 # Challenge 2 (Terraform)
 
+Create a `terraform.tfvars` from `terraform.tfvars.example` \
+Update aws keys in the `terraform.tfvars` file
+
+run `terraform init`\
 run `terraform plan`\
 run `terraform apply`
 
