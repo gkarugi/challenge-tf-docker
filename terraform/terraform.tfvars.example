@@ -1,0 +1,11 @@
+aws_access_key=""
+aws_secret_key=""
+
+bastion-ingress-cidr = "0.0.0.0/0"
+
+vpc-cidr-block = "10.20.0.0/16"
+public-subnets-cidrs-blocks = ["10.20.0.0/24"] //can handle multiple availability zones
+private-subnets-cidrs-blocks = ["10.20.1.0/24"] //can handle multiple availability zones
+
+subnetid = "10.20.0.0/24"
+private-subnet-1-cidr-block = "10.20.3.0/24"
